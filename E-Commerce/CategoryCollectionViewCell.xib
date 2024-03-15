@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="E_Commerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="338" height="291"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="338" height="291"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Esq-Rm-7Yk">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="291"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Collection" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDh-UH-jjj">
+                        <rect key="frame" x="49.333333333333329" y="160" width="239.33333333333337" height="30"/>
+                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="30"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="QDh-UH-jjj" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="0Ra-He-mP2"/>
+                <constraint firstItem="Esq-Rm-7Yk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="4I5-jq-bw9"/>
+                <constraint firstAttribute="bottom" secondItem="Esq-Rm-7Yk" secondAttribute="bottom" id="B7U-dt-IFV"/>
+                <constraint firstAttribute="trailing" secondItem="Esq-Rm-7Yk" secondAttribute="trailing" id="BZM-Df-vFC"/>
+                <constraint firstItem="QDh-UH-jjj" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="a9s-Ev-LY7"/>
+                <constraint firstItem="Esq-Rm-7Yk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cII-Dg-0HF"/>
+                <constraint firstItem="QDh-UH-jjj" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.708087" id="xCz-AR-CN6"/>
+            </constraints>
+            <size key="customSize" width="338" height="291"/>
+            <connections>
+                <outlet property="categoreNameLabel" destination="QDh-UH-jjj" id="mKU-JN-VRU"/>
+                <outlet property="categoresImage" destination="Esq-Rm-7Yk" id="Gcf-2f-LYi"/>
+            </connections>
+            <point key="canvasLocation" x="349.61832061068702" y="72.887323943661968"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="lunchScreen" width="375" height="812"/>
+    </resources>
+</document>

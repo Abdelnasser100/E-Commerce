@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C22909552BA499C300920937 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22909542BA499C300920937 /* HomeViewController.swift */; };
+		C22909582BA499E400920937 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22909562BA499E400920937 /* CategoryCollectionViewCell.swift */; };
+		C22909592BA499E400920937 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C22909572BA499E400920937 /* CategoryCollectionViewCell.xib */; };
+		C25EB1342BA345F6000C6DE8 /* ExUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25EB1332BA345F6000C6DE8 /* ExUiView.swift */; };
+		C25EB13B2BA34F6D000C6DE8 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C25EB1362BA34F6C000C6DE8 /* Roboto-Light.ttf */; };
+		C25EB13C2BA34F6D000C6DE8 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C25EB1372BA34F6C000C6DE8 /* Roboto-Medium.ttf */; };
+		C25EB13D2BA34F6D000C6DE8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C25EB1382BA34F6C000C6DE8 /* Roboto-Regular.ttf */; };
+		C25EB13E2BA34F6D000C6DE8 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C25EB1392BA34F6C000C6DE8 /* Roboto-Black.ttf */; };
+		C25EB13F2BA34F6D000C6DE8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C25EB13A2BA34F6D000C6DE8 /* Roboto-Bold.ttf */; };
 		C29051262BA1BA0F006AF636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29051252BA1BA0F006AF636 /* AppDelegate.swift */; };
 		C29051282BA1BA0F006AF636 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29051272BA1BA0F006AF636 /* SceneDelegate.swift */; };
-		C290512A2BA1BA0F006AF636 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29051292BA1BA0F006AF636 /* ViewController.swift */; };
 		C290512D2BA1BA0F006AF636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C290512B2BA1BA0F006AF636 /* Main.storyboard */; };
 		C29051302BA1BA0F006AF636 /* E_Commerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C290512E2BA1BA0F006AF636 /* E_Commerce.xcdatamodeld */; };
 		C29051322BA1BA11006AF636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29051312BA1BA11006AF636 /* Assets.xcassets */; };
@@ -17,6 +25,10 @@
 		C29051402BA1BA11006AF636 /* E_CommerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C290513F2BA1BA11006AF636 /* E_CommerceTests.swift */; };
 		C290514A2BA1BA11006AF636 /* E_CommerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29051492BA1BA11006AF636 /* E_CommerceUITests.swift */; };
 		C290514C2BA1BA11006AF636 /* E_CommerceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C290514B2BA1BA11006AF636 /* E_CommerceUITestsLaunchTests.swift */; };
+		C290515C2BA1BADC006AF636 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C290515B2BA1BADC006AF636 /* LoginViewController.swift */; };
+		C2DD3B7A2BA4A854006BBFAF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C29051362BA1BA11006AF636 /* Info.plist */; };
+		C2E171F72BA20EB30054A984 /* SIgnUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E171F62BA20EB30054A984 /* SIgnUpViewController.swift */; };
+		C2E171F92BA211BA0054A984 /* ConfirmPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E171F82BA211BA0054A984 /* ConfirmPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C22909542BA499C300920937 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C22909562BA499E400920937 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C22909572BA499E400920937 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		C25EB1332BA345F6000C6DE8 /* ExUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExUiView.swift; sourceTree = "<group>"; };
+		C25EB1362BA34F6C000C6DE8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		C25EB1372BA34F6C000C6DE8 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		C25EB1382BA34F6C000C6DE8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		C25EB1392BA34F6C000C6DE8 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		C25EB13A2BA34F6D000C6DE8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		C29051222BA1BA0F006AF636 /* E-Commerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Commerce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29051252BA1BA0F006AF636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C29051272BA1BA0F006AF636 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C29051292BA1BA0F006AF636 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C290512C2BA1BA0F006AF636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C290512F2BA1BA0F006AF636 /* E_Commerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = E_Commerce.xcdatamodel; sourceTree = "<group>"; };
 		C29051312BA1BA11006AF636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +71,9 @@
 		C29051452BA1BA11006AF636 /* E-CommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-CommerceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29051492BA1BA11006AF636 /* E_CommerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_CommerceUITests.swift; sourceTree = "<group>"; };
 		C290514B2BA1BA11006AF636 /* E_CommerceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_CommerceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C290515B2BA1BADC006AF636 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C2E171F62BA20EB30054A984 /* SIgnUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnUpViewController.swift; sourceTree = "<group>"; };
+		C2E171F82BA211BA0054A984 /* ConfirmPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +101,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C22909522BA4997100920937 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C22909532BA4998000920937 /* HomeViewController */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		C22909532BA4998000920937 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C22909542BA499C300920937 /* HomeViewController.swift */,
+				C229095A2BA4A2AA00920937 /* HomeCollectionViewCell */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		C229095A2BA4A2AA00920937 /* HomeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C22909572BA499E400920937 /* CategoryCollectionViewCell.xib */,
+				C22909562BA499E400920937 /* CategoryCollectionViewCell.swift */,
+			);
+			name = HomeCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C25EB1322BA345C0000C6DE8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C2870FD32BA38C6900D63425 /* Extention */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C25EB1352BA34F4B000C6DE8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C25EB1392BA34F6C000C6DE8 /* Roboto-Black.ttf */,
+				C25EB13A2BA34F6D000C6DE8 /* Roboto-Bold.ttf */,
+				C25EB1362BA34F6C000C6DE8 /* Roboto-Light.ttf */,
+				C25EB1372BA34F6C000C6DE8 /* Roboto-Medium.ttf */,
+				C25EB1382BA34F6C000C6DE8 /* Roboto-Regular.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		C2870FD22BA38C3700D63425 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C290512B2BA1BA0F006AF636 /* Main.storyboard */,
+				C22909522BA4997100920937 /* Main */,
+				C2E171F52BA20E990054A984 /* Auth */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		C2870FD32BA38C6900D63425 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				C25EB1332BA345F6000C6DE8 /* ExUiView.swift */,
+			);
+			name = Extention;
+			sourceTree = "<group>";
+		};
 		C29051192BA1BA0F006AF636 = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +188,10 @@
 		C29051242BA1BA0F006AF636 /* E-Commerce */ = {
 			isa = PBXGroup;
 			children = (
-				C29051252BA1BA0F006AF636 /* AppDelegate.swift */,
-				C29051272BA1BA0F006AF636 /* SceneDelegate.swift */,
-				C29051292BA1BA0F006AF636 /* ViewController.swift */,
-				C290512B2BA1BA0F006AF636 /* Main.storyboard */,
-				C29051312BA1BA11006AF636 /* Assets.xcassets */,
-				C29051332BA1BA11006AF636 /* LaunchScreen.storyboard */,
-				C29051362BA1BA11006AF636 /* Info.plist */,
+				C29051582BA1BA23006AF636 /* Core */,
+				C290515A2BA1BA4D006AF636 /* Resources */,
+				C25EB1322BA345C0000C6DE8 /* Helpers */,
+				C2870FD22BA38C3700D63425 /* Scenes */,
 				C290512E2BA1BA0F006AF636 /* E_Commerce.xcdatamodeld */,
 			);
 			path = "E-Commerce";
@@ -128,6 +212,44 @@
 				C290514B2BA1BA11006AF636 /* E_CommerceUITestsLaunchTests.swift */,
 			);
 			path = "E-CommerceUITests";
+			sourceTree = "<group>";
+		};
+		C29051582BA1BA23006AF636 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C29051272BA1BA0F006AF636 /* SceneDelegate.swift */,
+				C29051252BA1BA0F006AF636 /* AppDelegate.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C29051592BA1BA37006AF636 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C290515B2BA1BADC006AF636 /* LoginViewController.swift */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		C290515A2BA1BA4D006AF636 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C29051362BA1BA11006AF636 /* Info.plist */,
+				C25EB1352BA34F4B000C6DE8 /* Font */,
+				C29051332BA1BA11006AF636 /* LaunchScreen.storyboard */,
+				C29051312BA1BA11006AF636 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C2E171F52BA20E990054A984 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C29051592BA1BA37006AF636 /* LoginViewController */,
+				C2E171F62BA20EB30054A984 /* SIgnUpViewController.swift */,
+				C2E171F82BA211BA0054A984 /* ConfirmPasswordViewController.swift */,
+			);
+			name = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +356,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C25EB13D2BA34F6D000C6DE8 /* Roboto-Regular.ttf in Resources */,
+				C25EB13C2BA34F6D000C6DE8 /* Roboto-Medium.ttf in Resources */,
 				C29051352BA1BA11006AF636 /* LaunchScreen.storyboard in Resources */,
 				C29051322BA1BA11006AF636 /* Assets.xcassets in Resources */,
+				C25EB13E2BA34F6D000C6DE8 /* Roboto-Black.ttf in Resources */,
+				C25EB13B2BA34F6D000C6DE8 /* Roboto-Light.ttf in Resources */,
+				C22909592BA499E400920937 /* CategoryCollectionViewCell.xib in Resources */,
+				C25EB13F2BA34F6D000C6DE8 /* Roboto-Bold.ttf in Resources */,
+				C2DD3B7A2BA4A854006BBFAF /* Info.plist in Resources */,
 				C290512D2BA1BA0F006AF636 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +390,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C290512A2BA1BA0F006AF636 /* ViewController.swift in Sources */,
+				C2E171F92BA211BA0054A984 /* ConfirmPasswordViewController.swift in Sources */,
 				C29051262BA1BA0F006AF636 /* AppDelegate.swift in Sources */,
+				C2E171F72BA20EB30054A984 /* SIgnUpViewController.swift in Sources */,
+				C22909552BA499C300920937 /* HomeViewController.swift in Sources */,
+				C22909582BA499E400920937 /* CategoryCollectionViewCell.swift in Sources */,
 				C29051302BA1BA0F006AF636 /* E_Commerce.xcdatamodeld in Sources */,
+				C290515C2BA1BADC006AF636 /* LoginViewController.swift in Sources */,
 				C29051282BA1BA0F006AF636 /* SceneDelegate.swift in Sources */,
+				C25EB1342BA345F6000C6DE8 /* ExUiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +577,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8XP99PU3R2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "E-Commerce/Info.plist";
+				INFOPLIST_FILE = "E-Commerce/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -471,7 +605,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8XP99PU3R2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "E-Commerce/Info.plist";
+				INFOPLIST_FILE = "E-Commerce/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
