@@ -47,6 +47,20 @@ extension HomeViewController:UICollectionViewDelegate,UICollectionViewDataSource
     
     
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        
+        if indexPath.row == 0 {
+            
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let viewController = storyBoard.instantiateViewController(withIdentifier: "NewCollectionViewController")
+            navigationController?.pushViewController(viewController, animated: true)
+            
+        }
+        
+    }
+    
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         let width = view.frame.width

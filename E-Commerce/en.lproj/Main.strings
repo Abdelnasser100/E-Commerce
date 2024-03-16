@@ -1,0 +1,90 @@
+
+/* Class = "UILabel"; text = "Don't Have an acount?"; ObjectID = "2z4-6T-vVn"; */
+"2z4-6T-vVn.text" = "Don't Have an acount?";
+
+/* Class = "UIButton"; configuration.title = "Sign Up"; ObjectID = "64J-mX-zKh"; */
+"64J-mX-zKh.configuration.title" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "64J-mX-zKh"; */
+"64J-mX-zKh.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Log In"; ObjectID = "9Q7-uL-snL"; */
+"9Q7-uL-snL.text" = "Log In";
+
+/* Class = "UIButton"; configuration.title = "Sign Up"; ObjectID = "9XI-o1-z1Z"; */
+"9XI-o1-z1Z.configuration.title" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9XI-o1-z1Z"; */
+"9XI-o1-z1Z.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Or Sign Up With Socal Acount "; ObjectID = "AhD-ge-XC0"; */
+"AhD-ge-XC0.text" = "Or Sign Up With Socal Acount ";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "J6T-PS-FR5"; */
+"J6T-PS-FR5.placeholder" = "Email";
+
+/* Class = "UIButton"; configuration.title = "forgot your password?"; ObjectID = "LGg-as-IRW"; */
+"LGg-as-IRW.configuration.title" = "forgot your password?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LGg-as-IRW"; */
+"LGg-as-IRW.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Please enter email to send link to change password"; ObjectID = "R62-EB-dKR"; */
+"R62-EB-dKR.text" = "Please enter email to send link to change password";
+
+/* Class = "UITabBarItem"; title = "Bag"; ObjectID = "SUv-PB-sfJ"; */
+"SUv-PB-sfJ.title" = "Bag";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "U59-bH-Ztl"; */
+"U59-bH-Ztl.title" = "Home";
+
+/* Class = "UILabel"; text = "Or Sign Up With Socal Acount "; ObjectID = "Wei-Hl-GUv"; */
+"Wei-Hl-GUv.text" = "Or Sign Up With Socal Acount ";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "WvJ-gd-m0K"; */
+"WvJ-gd-m0K.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "bEw-h7-iBn"; */
+"bEw-h7-iBn.placeholder" = "Password";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "c1b-ZP-spv"; */
+"c1b-ZP-spv.title" = "Profile";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "e0S-9M-QJT"; */
+"e0S-9M-QJT.placeholder" = "Confirm Password";
+
+/* Class = "UIButton"; configuration.title = "Log In"; ObjectID = "ezi-3L-zzX"; */
+"ezi-3L-zzX.configuration.title" = "Log In";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ezi-3L-zzX"; */
+"ezi-3L-zzX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "iKD-xO-U4X"; */
+"iKD-xO-U4X.text" = "Sign Up";
+
+/* Class = "UITabBarItem"; title = "Favorite"; ObjectID = "nHf-ig-7lL"; */
+"nHf-ig-7lL.title" = "Favorite";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "rU5-Ye-2nq"; */
+"rU5-Ye-2nq.placeholder" = "Email";
+
+/* Class = "UIButton"; configuration.title = "Send"; ObjectID = "se6-Ry-ZfX"; */
+"se6-Ry-ZfX.configuration.title" = "Send";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "se6-Ry-ZfX"; */
+"se6-Ry-ZfX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Confirm Password"; ObjectID = "tPo-lj-bqy"; */
+"tPo-lj-bqy.text" = "Confirm Password";
+
+/* Class = "UITabBarItem"; title = "Chat"; ObjectID = "tqh-k3-7gj"; */
+"tqh-k3-7gj.title" = "Chat";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "uzb-62-FIg"; */
+"uzb-62-FIg.placeholder" = "Password";
+
+/* Class = "UIButton"; configuration.title = "You have alredy acount?"; ObjectID = "xFc-di-BUx"; */
+"xFc-di-BUx.configuration.title" = "You have alredy acount?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xFc-di-BUx"; */
+"xFc-di-BUx.normalTitle" = "Button";
