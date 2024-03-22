@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DetailImageCollectionViewCell" id="gTV-IL-0wX" customClass="DetailImageCollectionViewCell" customModule="E_Commerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="194" height="203"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="194" height="203"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aV3-0U-YGX">
+                        <rect key="frame" x="0.0" y="0.0" width="194" height="203"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blouse" translatesAutoresizingMaskIntoConstraints="NO" id="gIn-rM-B19">
+                                <rect key="frame" x="0.0" y="0.0" width="189" height="203"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gIn-rM-B19" secondAttribute="bottom" id="9N2-5Y-PLH"/>
+                            <constraint firstItem="gIn-rM-B19" firstAttribute="top" secondItem="aV3-0U-YGX" secondAttribute="top" id="Ddl-8d-V6Q"/>
+                            <constraint firstItem="gIn-rM-B19" firstAttribute="leading" secondItem="aV3-0U-YGX" secondAttribute="leading" id="a30-2F-F1v"/>
+                            <constraint firstAttribute="trailing" secondItem="gIn-rM-B19" secondAttribute="trailing" constant="5" id="doU-Yj-1ce"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aV3-0U-YGX" secondAttribute="trailing" id="2xe-mK-0Il"/>
+                <constraint firstAttribute="bottom" secondItem="aV3-0U-YGX" secondAttribute="bottom" id="8LK-gS-rPq"/>
+                <constraint firstItem="aV3-0U-YGX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="n3P-2b-9yZ"/>
+                <constraint firstItem="aV3-0U-YGX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="qfH-js-G2B"/>
+            </constraints>
+            <size key="customSize" width="194" height="203"/>
+            <point key="canvasLocation" x="239.69465648854961" y="42.605633802816904"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Blouse" width="163" height="112"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
